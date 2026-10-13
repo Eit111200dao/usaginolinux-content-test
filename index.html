@@ -1,0 +1,6 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Usagi VM · Linuxワークスペース</title><link rel="stylesheet" href="./style.css"></head><body>
+<div id="app"></div><div id="toast" role="status"></div>
+<dialog id="console-dialog"><div class="console-top"><strong>Linux デスクトップ</strong><strong class="latency-reading" data-latency title="サーバーまでの通信往復時間。VM処理・画面描画は含みません。">通信往復：測定中</strong><span>切断後は10分の猶予があります</span><button id="console-close">切断して戻る</button></div><div id="console-screen"></div></dialog>
+<dialog id="details-dialog"><header><strong>ログ詳細</strong><button id="details-close">閉じる</button></header><pre id="details-content"></pre></dialog>
+<script type="module" src="./app.mjs"></script></body></html>
